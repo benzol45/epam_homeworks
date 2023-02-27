@@ -12,7 +12,7 @@ public class LoggerLesson {
             logger.info("Message for logging at time: {}", LocalDateTime.now());
 
             try {
-                Thread.sleep(1 * 1000);
+                Thread.sleep(10);
             } catch (InterruptedException e) {
                 return;
             }
